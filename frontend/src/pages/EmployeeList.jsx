@@ -3,7 +3,6 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 
 const EmployeeList = () => {
-  const [employees, setEmployees] = undefined;
   const [employeesState, setEmployeesState] = useState([]);
   const [search, setSearch] = useState('');
   const [loading, setLoading] = useState(true);
